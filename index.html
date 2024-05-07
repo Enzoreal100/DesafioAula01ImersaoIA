@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculadora">
+    <div id="display"></div>
+    <div class="botoes">
+      <button class="operador" onclick="appendOperador('+')">+</button>
+      <button class="operador" onclick="appendOperador('-')">-</button>
+      <button class="operador" onclick="appendOperador('*')">*</button>
+      <button class="operador" onclick="appendOperador('/')">/</button>
+      <button onclick="appendNumero('7')">7</button>
+      <button onclick="appendNumero('8')">8</button>
+      <button onclick="appendNumero('9')">9</button>
+      <button onclick="limpar()">C</button>
+      <button onclick="appendNumero('4')">4</button>
+      <button onclick="appendNumero('5')">5</button>
+      <button onclick="appendNumero('6')">6</button>
+      <button onclick="calcular()">=</button>
+      <button onclick="appendNumero('1')">1</button>
+      <button onclick="appendNumero('2')">2</button>
+      <button onclick="appendNumero('3')">3</button>
+      <button onclick="appendNumero('0')">0</button>
+      <button onclick="appendNumero('.')">.</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
